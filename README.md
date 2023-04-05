@@ -2,6 +2,8 @@
 
 My configuration files for quite a few stuff, including, but not limited to: [WezTerm](https://github.com/wez/wezterm), [fish](https://fishshell.com) and [Starship](https://starship.rs/).
 
+You can download the files using [this tool by minhaskamal](https://minhaskamal.github.io/DownGit/).
+
 ## No Install scripts, because I do not know how to make those lol.
 
 
@@ -79,14 +81,16 @@ Overwrite the existing `starship.toml` file, If there is any.
 You can change the Arch logo with the logo of your choice, if it is available as a [Nerd Font](https://www.nerdfonts.com/) icon
 
 # Credits:
-[Starship](https://starship.rs)
+[Starship](https://starship.rs/)
 
 Starship config by someone on the Catppuccin Discord server. Not to be found on GitHub, sadly.
 
-[WezTerm](wezfurlong.org/wezterm)
+[WezTerm](wezfurlong.org/wezterm/)
 
-[WezTerm GitHub page](https://github.com/wez/wezterm)
+[WezTerm GitHub page](https://github.com/wez/wezterm/)
 
 [fish](https://fishshell.com/)
+
+[minhaskamal for the GitHub file/directory downloading tool](https://minhaskamal.github.io/DownGit/)
 
 And you!
