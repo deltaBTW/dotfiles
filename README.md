@@ -52,30 +52,31 @@ OR, for any other distro:
 
 `curl -sS https://starship.rs/install.sh | sh`
 
-### Configuring the stuff:
+# Configuring the stuff:
 
-#### For WezTerm: copy the [config file](https://github.com/C7DE/arch-linux-dotfiles/blob/main/wezterm/wezterm.lua) to `/home/USER/.config/wezterm/`
+## For WezTerm: copy the [config file](https://github.com/C7DE/arch-linux-dotfiles/blob/main/wezterm/wezterm.lua) to `/home/USER/.config/wezterm/`
 
-You can do this manually, or by running this command:
+You can do this manually (below), or by running this command:
 
 `sudo cp /home/USER/Downloads/wezterm.lua ~/.config/wezterm`
 
-If you couldn't download the file, create a file called `wezterm.lua` in the WezTerm config folder, copy the contents of my wezterm.lua file, and paste it into the newly created file. Sounds confusing, because I'm too stupid to explain it properly.
+MANUALLY: If you couldn't download the file, create a file called `wezterm.lua` in the WezTerm config folder, copy the contents of my wezterm.lua file, and paste it into the newly created file. Sounds confusing, because I'm too stupid to explain it properly.
 
-#### For fish, you can just add the following string to the bottom of the file:
+## For fish, you can just add the following string to the bottom of the file:
 
 `starship init fish | source`
 
 This will make sure that Starship starts, everytime you open a fish terminal
 
-#### For Starship, it's similar to the WezTerm configs: copy the downloaded [starship.toml file](https://github.com/C7DE/arch-linux-dotfiles/blob/main/starship.toml), and put it in `~/.config`
+## For Starship, it's similar to the WezTerm configs: download the [starship.toml file](https://github.com/C7DE/arch-linux-dotfiles/blob/main/starship.toml), and put it in `~/.config`
 
 Overwrite the existing `starship.toml` file, If there is any.
 
-Your Terminal should look like this after you're done with all that :)
+### Your Terminal should look like this after you're done with all that :)
 
 ![image](https://user-images.githubusercontent.com/86793541/230220382-67da92d9-fa16-4a65-b09d-6a2d46055938.png)
 
+You can change the Arch logo with the logo of your choice, if it is available as a [Nerd Font](https://www.nerdfonts.com/) icon
 
 # Credits:
 [Starship](https://starship.rs)
