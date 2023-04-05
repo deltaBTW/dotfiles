@@ -4,7 +4,6 @@ My configuration files for quite a few stuff, including, but not limited to: [We
 
 You can download the files using [this tool by minhaskamal](https://minhaskamal.github.io/DownGit/).
 
-## No Install scripts, because I do not know how to make those lol.
 
 
 
