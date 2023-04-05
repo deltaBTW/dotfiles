@@ -8,26 +8,14 @@ You can download the files using [this tool by minhaskamal](https://minhaskamal.
 
 
 
-(NOTE: these configs are done on an Arch Linux machine, so if you use a different distro, click on the link below each dependency for an Install Guide, for other distros aswell.
-
-
+(NOTE: these configs are done on an Arch Linux machine, so if you use a different distro, check the Credits (by scrolling to the very bottom), You will be redirected to one of the program's homepage.
 
 # -- TERMINAL --
-## Installing WezTerm:
+## Installing WezTerm, fish and starship:
 
-[Installation Guide for any other distro](https://wezfurlong.org/wezterm/install/linux.html)
+run `sudo pacman -S fish starship | yay -S wezterm-git`
 
-Here, I'm gonna assume that you're using `yay`, of course, you can replace yay with your AUR helper.
-
-run `yay -S wezterm-git`
-
-## Installing fish:
-
-[Installation Guide for any other distro](https://fishshell.com/)
-
-run `sudo pacman -S fish`
-
-then run the following 2 commands:
+then run the following 2 commands, to make fish the default shell:
 
 `echo /usr/bin/fish | sudo tee -a /etc/shells.`
 
@@ -39,20 +27,11 @@ restart your terminal, you should get a greeting message like this:
 
 ![greeting](https://user-images.githubusercontent.com/86793541/230217834-e80441af-f958-4ccc-b100-91bd2b5b0aa1.png)
 
-If not, run the command `echo $SHELL`. If you don't get this output 
+If not, run the command `echo $SHELL`. You should get the following output.
 
 ![output](https://user-images.githubusercontent.com/86793541/230218707-c62eeaa5-78cf-492c-a5e6-8fc8cc27a26c.png), 
 
-Then I don't know, [Take a look at this page, or browse through the whole Documentation](https://fishshell.com/docs/current/index.html#installation)
-
-
-## Installing Starship:
-
-`sudo pacman -S starship`
-
-OR, for any other distro: 
-
-`curl -sS https://starship.rs/install.sh | sh`
+If not, search how to make fish the default shell on your search engine idk.
 
 # Configuring the stuff:
 
