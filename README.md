@@ -1,10 +1,10 @@
-# | Dotfiles |
+# | Dotfiles (unorganized) | W.I.P. btw |
 
 My configuration files for quite a few stuff, including, but not limited to: [WezTerm](https://github.com/wez/wezterm), [fish](https://fishshell.com) and [Starship](https://starship.rs/).
 
 ## No Install scripts, because I do not know how to make those lol.
 
-W.I.P. btw
+
 
 (NOTE: these configs are done on an Arch Linux machine, so if you use a different distro, click on the link below each dependency for an Install Guide, for other distros aswell.
 
