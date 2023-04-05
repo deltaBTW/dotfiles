@@ -12,7 +12,8 @@ You can download the files using [this tool by minhaskamal](https://minhaskamal.
 # -- TERMINAL --
 ## Installing WezTerm, fish and starship:
 
-run `sudo pacman -S fish starship | yay -S wezterm-git`
+run `sudo pacman -S fish starship`, after that run
+`yay -S wezterm-git`
 
 then run the following 2 commands, to make fish the default shell:
 
