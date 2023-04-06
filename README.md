@@ -43,7 +43,7 @@ You can do this manually (below), or by running this command:
 
 MANUALLY: If you couldn't download the file, create a file called `wezterm.lua` in the WezTerm config folder, copy the contents of my wezterm.lua file, and paste it into the newly created file. Sounds confusing, because I'm too stupid to explain it properly.
 
-## For fish, you can just add the following string to the bottom of the `config.fish` file, located in `/.config/fish/:
+## For fish, you can just add the following string to the bottom of the `config.fish` file, located in `/.config/fish/`:
 
 `starship init fish | source`
 
@@ -72,4 +72,3 @@ Starship config by someone on the Catppuccin Discord server. Not to be found on 
 
 [minhaskamal for the GitHub file/directory downloading tool](https://minhaskamal.github.io/DownGit/)
 
-And you!
