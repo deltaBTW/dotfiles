@@ -133,3 +133,4 @@ Now you have a centered panel, and should be rounded if you installed the picom 
 
 # CREDITS
 #### [vista1nik](https://reddit.com/u/vista1nik) picom config
+#### [westofer for the inspiration to make this repo ig](https://github.com/westofer/monochrome-theme)
