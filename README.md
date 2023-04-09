@@ -26,33 +26,23 @@ restart your terminal, you should get a greeting message like this:
 
 ![greeting](https://user-images.githubusercontent.com/86793541/230217834-e80441af-f958-4ccc-b100-91bd2b5b0aa1.png)
 
-If not, run the command `echo $SHELL`. You should get the following output.
-
-![output](https://user-images.githubusercontent.com/86793541/230218707-c62eeaa5-78cf-492c-a5e6-8fc8cc27a26c.png), 
-
-If not, search how to make fish the default shell on your search engine idk.
-
 # Configuring the stuff:
 
-## For WezTerm: copy the [config file](https://github.com/C7DE/arch-linux-dotfiles/blob/main/wezterm/wezterm.lua) to `/home/USER/.config/wezterm/`
-
-You can do this manually (below), or by running this command:
+## WezTerm: copy the [config file](https://github.com/C7DE/arch-linux-dotfiles/blob/main/wezterm/wezterm.lua) to `/home/USER/.config/wezterm/` by running this command:
 
 `sudo cp /home/USER/Downloads/wezterm.lua ~/.config/wezterm`
 
-MANUALLY: If you couldn't download the file, create a file called `wezterm.lua` in the WezTerm config folder, copy the contents of my wezterm.lua file, and paste it into the newly created file. Sounds confusing, because I'm too stupid to explain it properly.
-
-## For fish, you can just add the following string to the bottom of the `config.fish` file, located in `/.config/fish/`:
+## fish: you can just add the following string to the bottom of the `config.fish` file, located in `/.config/fish/`:
 
 `starship init fish | source`
 
 This will make sure that Starship starts, everytime you open a fish terminal
 
-## For Starship, it's similar to the WezTerm configs: download the [starship.toml file](https://github.com/C7DE/arch-linux-dotfiles/blob/main/starship.toml), and put it in `~/.config`
+## Starship: download the [starship.toml file](https://github.com/C7DE/arch-linux-dotfiles/blob/main/starship.toml), and put it in `~/.config`
 
 Overwrite the existing `starship.toml` file, If there is any.
 
-### Your Terminal should look like this after you're done with all that :)
+### Your Terminal should look like this after you're done with all that
 
 ![image](https://user-images.githubusercontent.com/86793541/230220382-67da92d9-fa16-4a65-b09d-6a2d46055938.png)
 
