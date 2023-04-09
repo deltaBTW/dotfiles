@@ -46,8 +46,6 @@ Overwrite the existing `starship.toml` file, If there is any.
 
 ![image](https://user-images.githubusercontent.com/86793541/230220382-67da92d9-fa16-4a65-b09d-6a2d46055938.png)
 
-You can change the Arch logo with the logo of your choice, if it is available as a [Nerd Font](https://www.nerdfonts.com/) icon
-
 # Credits:
 [Starship](https://starship.rs/)
 
