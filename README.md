@@ -1,5 +1,5 @@
 # Trash af dotfiles
-## This is a guide on getting a stupid, goofy rice, like mine (Go to #Preview). I will work on it later. Desktop Environment is KDE Plasma.
+## I HAVE ABANDONED THIS REPO AND WILL NO LONGER UPDATE IT AS IVE REINSTALLED MY SYSTEM MULTIPLE TIMES (distro-hopping or switching to any other OS cause why not) AND CANT BE BOTHERED TO REDO ALL OF THESE STEPS
 
 # Table of Content or smth:
 1. [Preview](#preview)
